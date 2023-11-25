@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Zeyada&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Samira</title>
+    <link rel="stylesheet" href="./projetoSamsMobile.css">
+
+</head>
+<body>
+    <div id="container">
+    <div id="profile"> <!--aqui vai ficar a foto de perfil-->
+        <img src="./fotosams.jpg" alt="foto do perfil">
+        <p>@samiraaraujo15</p>
+    </div>
+    <div id="switch" onclick="toggleMode()">
+        <button> <!--aqui vai ficar o botão para mudar o tema-->
+            <img var(--switch-bg-url)>
+        </button>
+        <span></span>
+    </div>
+    <ul> <!--aqui vai ficar o menu de opções-->
+        <p>Quer começar a estudar programação?</p>
+        <p>Segue as dicas:</p>
+        
+        <li>
+            <a href="https://www.youtube.com/@CursoemVideo">Curso em Vídeo</a>
+        </li>
+        <li>
+            <a href="https://www.freecodecamp.org">Free Code Camp</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO">Matheus Battisti - Hora de Codar</a>
+        </li>
+        <li>
+            <a href="https://www.alura.com.br" target="_blank">Alura</a>
+            <!--esse target="_blank" indica que quando se clicar nesse link, irá ser aberta uma nova pagina-->
+        </li>
+        <li>
+            <a href="https://www.rocketseat.com.br">Rocketseat</a>
+        </li>
+    </ul>
+    <p>Me siga nas redes sociais:</p>
+    <div id="social-links">
+   
+        <!--site para pegar os links: IONICONS-->
+
+    <a href="https://github.com/samsaraujo" target=""><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/samiraaraujo15/" target=""><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="https://www.linkedin.com/in/samira-araujo-76b802187/" target=""><ion-icon name="logo-linkedin"></ion-icon></a>    
+    </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> <!--aqui é onde vai ser puxado os icons-->
+    <script src="./projetoSamsMobile.js"></script>
+</body>
+    <footer>
+        <p></p>
+    </footer>
+</html>
